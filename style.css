@@ -293,6 +293,9 @@ color: #1D4B72;
 .get-img img{
     flex-basis: 33%;
 }
+.arrow img{
+    margin-bottom: 50px;
+}
 
     /* end of get in */
 
@@ -302,11 +305,13 @@ color: #1D4B72;
     width: 100%;
     max-width: 1440px;
     margin-top: 160px;
+    
 }
 
 .contact-text h2{
     width: 445px;
     height: 59px;
+    margin-left: -64px;
     font-family: 'Palatino';
     font-weight: 700;
     font-size: 36px;
@@ -317,6 +322,7 @@ color: #1D4B72;
 .contact-text p{
     width: 434px;
     height: 64px;
+    margin-left: -64px;
     font-family: 'Raleway';
     font-weight: 500;
     font-size: 18px;
@@ -326,15 +332,54 @@ color: #1D4B72;
 
 .contact-form{
     background-color: #ffff;
+    padding: 20px 30px;
 }
 
-.contact-form form input{
-    width: 90%;
-    display:inline-block;
+.form1 input{   
+    width:34% ;
+    margin: 5px;
+    padding: 20px 30px;
+    margin-left: 4px;
+}
+.form2 input{
+    width: 85%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    padding: 20px 30px;
+}
+.form3 input{
+    width: 85%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    padding: 20px 30px;
+}
+.form-opt select{
+    width: 98%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    padding: 20px 30px;
+}
+.form-submit input{
+    margin-top: 11px;
+    width: 100%;
+    padding: 14px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1B4B73;
+    background: #F2B84A;
     box-sizing: border-box;
-    
+    border: none;
+    border-radius: 6px;
 }
 
-.contact-form:first-child input{
-    width: 40% ;
-}
+    /* end of contact  */
+
+    /* start of foot   */
+
