@@ -20,31 +20,33 @@
 }
 .logo{
     width: 30%; 
-    
 }
-ul{
+
+.first-part ul{
     display: flex;
 }
-ul li{
+.first-part ul li{
     list-style: none;
 }
-ul li a{
+.first-part ul li a{
     text-decoration: none;
     padding:10px 20px ;
     font-weight:600 ;
     font-size: 14px;
     line-height: 16px;
     display: flex;
+    color: #1D4B72;
     align-items: center;
     letter-spacing: 0.1cm;
     text-transform: uppercase;
 }
-ul li:last-child a{
+.first-part ul li:last-child a{
     background-color: #fff;
     border-radius: 6px;
     color: #1D4B72;
     padding: 15px 15px;
 }
+
 
 /* NEV END */
 
@@ -383,3 +385,68 @@ color: #1D4B72;
 
     /* start of foot   */
 
+ footer{
+    width: 100%;
+    max-width: 1440px;
+    background-color: #1D4B72;
+    margin-top: 140px;
+    color: rgb(209, 206, 206);
+    padding: 120px 0;
+ }
+ .footer-left{
+    
+ }
+ footer .footer_item{
+    width: 25%;
+ }
+ .footer-left p{
+    margin-top: 100px;
+ }
+ footer .footer-item1 h4{
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-left: -51px;
+ }
+ footer .footer-item2 h4{
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    
+ }
+ footer .footer-item3 h4{
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    
+ }
+
+ footer .footer-item3 ul li a{
+    list-style:none;
+    display: block;
+    text-decoration: none;
+    color:rgb(209, 206, 206) ;
+    margin-top: 20px;
+    margin-left: 29px;
+ }
+
+ .footer-left .font-awsm i{
+   margin-top: 19px;
+   margin-left: 10px;
+ }
