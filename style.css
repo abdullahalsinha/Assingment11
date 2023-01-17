@@ -1,4 +1,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:ital,wght@1,100&display=swap');
+ @font-face {
+    font-family: palatino;
+    src: url(font/palatin.ttf);
+ }
 *{
     margin: 0 auto;
     padding: 0;
@@ -21,9 +25,12 @@
 .logo{
     width: 30%; 
 }
-
+.first-part li{
+    align-items: center;
+}
 .first-part ul{
     display: flex;
+    margin-top: 12px;
 }
 .first-part ul li{
     list-style: none;
@@ -44,6 +51,7 @@
     background-color: #fff;
     border-radius: 6px;
     color: #1D4B72;
+    margin-top: -1px;
     padding: 15px 15px;
 }
 
@@ -55,6 +63,7 @@
     max-width: 1440px;
     background-position: center;
     background-size: cover;
+    
 }
 .vl-text{
     margin: 150px;
@@ -107,12 +116,16 @@
 }
 
 
+
 .competent-partner .left , .competent-partner .right{
     width: 50%;
     
 }
-
+.competent-partner .left img{
+    width: 476px;
+}
 .competent-partner .right h2{
+    width: 700px;
     font-family: 'Palatino';
     margin-bottom: 25px;
     font-weight: 700;
@@ -120,6 +133,9 @@
     line-height: 140%;
     /* or 50px */
     color: #1D4B72;
+}
+.competent-partner .right h2::after{
+    display: none;
 }
 
 .competent-partner .right p{
@@ -143,14 +159,14 @@
 }
 
 .our-service h2{
-font-family: 'Palatino';
-font-weight: 700;
-font-size: 48px;
-margin-bottom: 30px;
-line-height: 53px;
-text-align: center;
-color: #1D4B72;
-
+    width: 700px;
+    font-family: 'Palatino';
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 30px;
+    line-height: 53px;
+    text-align: center;
+    color: #1D4B72;
 }
 
 .our-service .container{
@@ -189,6 +205,7 @@ color: #1D4B72;
 }
 
 .our-service .service-info a{
+    
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
@@ -196,6 +213,7 @@ color: #1D4B72;
     line-height: 150%;
     text-align: center;
     color: #F2B84A;
+    margin-left: 85px;
 }
     /* st why-us */
 
@@ -204,9 +222,10 @@ color: #1D4B72;
     padding:100px 0 ;
 }
 .why-us h2{
+    width: 700px;
     font-family: 'Palatino';
     font-weight: 700;
-    font-size: 36px;
+    font-size: 48px;
     line-height: 40px;
     text-align: center;
     color: #1D4B72;
@@ -295,8 +314,12 @@ color: #1D4B72;
 .get-img img{
     flex-basis: 33%;
 }
-.arrow img{
-    margin-bottom: 50px;
+.arro{
+    display: inline-block;
+    margin-top: 270px;
+}
+.arro a{
+    display: inline-block;
 }
 
     /* end of get in */
@@ -308,15 +331,20 @@ color: #1D4B72;
     max-width: 1440px;
     margin-top: 160px;
     
+    
 }
-
+.contact-text{
+    align-items: center;
+    margin-top: 50px;
+}
 .contact-text h2{
     width: 445px;
     height: 59px;
+    display: inline;
     margin-left: -64px;
     font-family: 'Palatino';
     font-weight: 700;
-    font-size: 36px;
+    font-size: 48px;
     line-height: 40px;
     color: #1D4B72;
 }
@@ -324,6 +352,7 @@ color: #1D4B72;
 .contact-text p{
     width: 434px;
     height: 64px;
+    margin-top: 50px;
     margin-left: -64px;
     font-family: 'Raleway';
     font-weight: 500;
@@ -425,6 +454,9 @@ color: #1D4B72;
     margin-left: 20px;
     
  }
+ .footer-item2 p{
+    margin-left: 98px;
+ }
  footer .footer-item3 h4{
     font-family: 'Raleway';
     font-weight: 700;
@@ -436,8 +468,10 @@ color: #1D4B72;
     margin-bottom: 30px;
     
  }
-
- footer .footer-item3 ul li a{
+ .footer-item3 li {
+    list-style: none;
+ }
+ .container .footer-item3 li a{
     list-style:none;
     display: block;
     text-decoration: none;
@@ -448,5 +482,20 @@ color: #1D4B72;
 
  .footer-left .font-awsm i{
    margin-top: 19px;
-   margin-left: 10px;
+   margin-left: 17px;
+ }
+h2{
+    position: relative;
+}
+ h2::after{
+    content: "";
+    display: inline-block;
+    width: 170px;
+    height: 5px;
+    background-color: #1D4B72;
+    position: absolute;
+    bottom: -22px;
+    left: 0px;
+    right: 0;
+    margin: auto;
  }
