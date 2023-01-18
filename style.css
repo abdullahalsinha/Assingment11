@@ -499,3 +499,42 @@ h2{
     right: 0;
     margin: auto;
  }
+
+ .header-mobile{
+    display: none;
+ }
+ /* end of footer* */
+
+ /* start of responsive */
+
+ @media screen and (max-width:414px){
+
+    .container{
+        
+        flex-direction: column;
+        width: 100%;
+    }
+    .navigation ul{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .first-part ul li:last-child a{
+        background: none;
+    }
+    .vl{
+        width: 100%;
+        background-image: none;
+    }
+     .vl-text{
+        width: 100%;
+        margin: auto ;
+        margin-left: 50px
+     }
+     .header-mobile{
+        
+     }
+     .competent-partner .left .img{
+        margin-left: 45px ;
+        width: 50%;
+     }
+ }
