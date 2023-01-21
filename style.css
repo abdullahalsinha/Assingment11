@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:ital,wght@1,100&display=swap');
  @font-face {
-    font-family: palatino;
-    src: url(font/palatin.ttf);
+    font-family: "palatino";
+    src: url('font/palatin.ttf');
  }
 *{
     margin: 0 auto;
@@ -12,7 +12,6 @@
     max-width: 1440px;
     background-color:#F2BB4A ;
     padding: 20px 0px;
-    align-items: center;
     
 }
 .container{
@@ -25,9 +24,7 @@
 .logo{
     width: 30%; 
 }
-.first-part li{
-    align-items: center;
-}
+
 .first-part ul{
     display: flex;
     margin-top: 12px;
@@ -286,10 +283,12 @@
     margin: 20px 0 50px;
     font-family: 'Raleway';
     font-weight: 500;
+    width: 200%;
     font-size: 14px;
     line-height: 150%;
     color: #101010;
 }
+
 .get-text a{
     text-decoration: none;
     box-sizing: border-box;
@@ -316,7 +315,7 @@
 }
 .arro{
     display: inline-block;
-    margin-top: 270px;
+    
 }
 .arro a{
     display: inline-block;
@@ -521,20 +520,210 @@ h2{
     .first-part ul li:last-child a{
         background: none;
     }
+
+    /* vl start  */
     .vl{
         width: 100%;
         background-image: none;
+        display: none;
     }
      .vl-text{
-        width: 100%;
+        width: 85%;
         margin: auto ;
-        margin-left: 50px
      }
+     .vl-text h1{
+        font-size: 24px;
+     }
+     .vl-text p{
+        font-size: 14px;
+     }
+
+     /* header start  */
      .header-mobile{
+        display: block;
+     }
+     .header-mobile .header-img img{
+        width: 100%;
+     }
+     .header-mobile .vl-text{
+        max-width: 100%;
+        box-sizing: border-box;
+     }
+        /* header end  */
+
+     /* competent start  */
+     .competent-partner .left , .competent-partner .right{
+        width: 70%;
+     }
+
+     .competent-partner .left img{
+        margin-left: -29px;
+        width: 100%;
+        margin-top: -79px;
+     }
+
+     .competent-partner .right h2{
+        font-size: 28px;
+        width: 375px;
+        margin-left: -30px;
+     }
+
+     .competent-partner .right p{
+        font-size: 14px;
+        margin-left: -38px;
+        width: 373px;
+        text-align: center;
+     }
+
+
+     /* after off  */
+     h2::after{
+        display: none;
+     }
+
+             /* our service start  */
+    }
+    .our-service h2{
+        width: 100%;
+        margin-top: -45px;
+        font-family: 
+        'Raleway';
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 140%;
+        text-align: center;
         
-     }
-     .competent-partner .left .img{
-        margin-left: 45px ;
+    }
+        
+    .our-service .service-info h4{
+        
+    }
+    .our-service .service-info p{  
+        font-family: 'Raleway';
+        margin: 20px 0;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+        color: #101010;
+    }
+    .our-service .service img{
+        align-self: center;
+        padding: 31px;
+    }
+
+    .our-service .service a{
+        margin-left: 106px;
+    }
+    /* end of why us  */
+
+    .why-us{
+        padding:30px 0 ;
+    }
+    .why-us h2{
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .why-item{
+        margin-bottom: 20px;
+        
         width: 50%;
-     }
+        height: 150px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .why-item h4{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #101010;
+    }
+
+    .why-item p{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    }
+
+    .why-us .container{
+        flex-direction: row;
+        column-gap: 0;
+        flex-wrap: wrap;
+    } 
+
+    /* end of .why-us */
+
+    /* start of get in touch  */
+
+    .get-text{
+        width: 90%;
+    }
+    .get-text h4{
+        margin-top: 50px;
+        margin-left: 10px;
+        font-family: 'Palatino';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        text-align: center;
+        color: #1D4B72;
+    }
+    .get-text p{
+        width: 350px;
+        margin-top: 40px;
+        margin-left: 10px;
+        font-size: 14px;
+        font-family: 'Raleway';
+        font-weight: 500;
+        text-align: center;
+        color: #101010;
+    }
+    .get-text a{
+        margin-bottom: 20px;
+        margin-left: 71px;
+    }
+    .get-img img{
+        margin-top: 40px;
+        overflow: hidden;
+    }
+    .arro{
+        display: none;
+    }
+
+    /* get touch end  */
+
+    /* contact us start  */
+
+    .contact-us{
+        margin-top: 0px;
+        padding:40px 0;
+    }
+
+    .contact-us .contact-text{
+        width:90% ;
+    }
+    .contact-text h2{
+        margin-left: 59px;
+        font-size: 28px;
+    }
+    
+    .contact-text p{
+        margin-top: 20px;
+        margin-left: -4px;
+        font-size: 14px;
+    }
+
+    .form1 {
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .form2{
+        margin-top: 20px;
+    }
+    
  }
