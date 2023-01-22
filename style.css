@@ -427,7 +427,7 @@
  footer .footer_item{
     width: 25%;
  }
- .footer-left p{
+ .footer-p{
     margin-top: 100px;
  }
  footer .footer-item1 h4{
@@ -582,7 +582,7 @@ h2{
      }
 
              /* our service start  */
-    }
+    
     .our-service h2{
         width: 100%;
         margin-top: -45px;
@@ -720,10 +720,47 @@ h2{
     .form1 {
         margin-top: 20px;
         width: 100%;
+        display: flex;
     }
     
     .form2{
         margin-top: 20px;
+        padding: 0 5px;
     }
     
- }
+
+
+    /* end of get touch  */
+
+    /* start footer  */
+
+    footer{
+        margin: 0 auto;
+    }
+
+    .footer-left p{
+        margin-top: 100px;
+    }
+
+    .footer-item1 h4{
+        margin-top: 60px;
+           
+    }
+
+    .footer-item1 p{
+        margin-bottom: 40px;
+    }
+
+    .footer-item2 h4{
+        width: 100%;
+        max-width: 414px;
+        text-align: center;
+    }
+
+    .footer-item2 p{
+        margin-bottom: 50px;
+    }
+    .footer-item3 h4{
+
+    }
+}
