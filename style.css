@@ -478,7 +478,11 @@
     margin-top: 20px;
     margin-left: 29px;
  }
-
+.footer-p p{
+    position: relative;
+    bottom: -197px;
+    left: -869px;
+}
  .footer-left .font-awsm i{
    margin-top: 19px;
    margin-left: 17px;
